@@ -86,14 +86,13 @@ void insertion_sort(Element Ls[], int lo, int hi){
 };
 
 
+Stack* createStack(){
+	return (Stack*) malloc(sizeof(Stack));
+};
 
-
-
-
-
-
-
-
+Stack_ele createstack_ele(){
+	return (Stack_ele) malloc(sizeof(struct stack_ele));
+};
 
 
 
