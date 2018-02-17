@@ -1,0 +1,3 @@
+SeqListT
+gc SeqList.o SeqListTest.o SeqListUses.o -o myprogram
+
